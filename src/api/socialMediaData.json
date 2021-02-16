@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "facebook",
+        "link": "https://www.facebook.com/muhrayhanns/",
+        "icon": "https://i.imgur.com/TSi065D.png"
+    },
+    {
+        "id": 2,
+        "name": "instagram",
+        "link": "https://www.instagram.com/muh_rayhanns/",
+        "icon": "https://i.imgur.com/FHDW02V.png"
+    },
+    {
+        "id": 3,
+        "name": "dribbble",
+        "link": "https://dribbble.com/rayhan0419",
+        "icon": "https://i.imgur.com/MYshDKS.png"
+    },
+    {
+        "id": 4,
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UC_RZN7sJwUiNyMhQ6ooqZUg",
+        "icon": "https://i.imgur.com/KcdrF9e.png"
+    },
+    {
+        "id": 5,
+        "name": "tiktok",
+        "link": "https://www.tiktok.com/",
+        "icon": "https://i.imgur.com/Y8Xo5Vr.png"
+    },
+    {
+        "id": 6,
+        "name": "email",
+        "link": "https://www.gmail.com",
+        "icon": "https://i.imgur.com/kg6ELIM.png"
+    }
+]

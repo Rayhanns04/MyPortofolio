@@ -1,0 +1,67 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+
+.about__ms__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: 158px 0 158px 0;
+
+  h1 {
+    font-family: map-get($fonts, regular);
+    font-weight: bold;
+    color: $orange;
+    font-size: map-get($fonts-sizes, s-large);
+    align-self: flex-start;
+  }
+}
+
+.about__content {
+  .about__text {
+    font-family: map-get($fonts, regular);
+    width: 1202px;
+    font-size: map-get($fonts-sizes, s-regular);
+    color: $grey;
+    margin: 51px 0 51px 0;
+  }
+
+  .about__contact {
+    position: relative;
+    border: 1px solid violet;
+    background-image: url('https://i.imgur.com/JdpbI0f.png');
+    background-size: auto;
+    height: 286px;
+    background-repeat: no-repeat;
+
+    .about__card {
+      position: absolute;
+      top: 150px;
+      right: 120px;
+      background-color: $blue;
+      color: white;
+      width: 430px;
+      height: fit-content;
+      padding: 40px 0 40px 40px;
+
+      .about__card__text {
+        margin-bottom: 18px;
+        h3 {
+          font-family: map-get($fonts, light);
+          font-size: map-get($fonts-sizes, s-small);
+          letter-spacing: 6.33px;
+        }
+
+        P {
+          font-family: map-get($fonts, light);
+          font-size: map-get($fonts-sizes, s-small);
+        }
+      }
+    }
+  }
+}
+
+.about__signature {
+  margin-top: 60px;
+}

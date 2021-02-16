@@ -1,0 +1,24 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+
+.footer__ms__container {
+  background-color: $orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+
+  p {
+    font-family: map-get($fonts, regular);
+    font-size: map-get($fonts-sizes, s-extra-small);
+    color: $white;
+    text-align: center;
+  }
+
+  p:nth-child(2) {
+    margin-top: 5px;
+  }
+}

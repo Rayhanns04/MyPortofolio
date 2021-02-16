@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.imgur.com/6Wu5Fj2.png",
+        "name": "Dapur Rasha",
+        "desc": "In this Rasha Kitchen project, it involves a Web Frontend Developer & Backend Developer. Rasha's kitchen has a mission to make it easier for buyers to choose items with ui that are easy to use and of course simple but modern.",
+        "miniDesc": "The mobile platform and Web applications are designed for fast and user-friendly online stores.",
+        "link": "https://dapurrashaid.web.app/",
+        "date": [
+            {
+                "id": 1,
+                "month": "DECEMBER",
+                "year": 2021
+            }
+        ] ,
+        "tag": [
+            {
+                "id": 1,
+                "name": "HTML"
+            },
+            {
+                "id": 2,
+                "name": "CSS"
+            },
+            {
+                "id": 3,
+                "name": "Javascript"
+            },
+            {
+                "id": 4,
+                "name": "Mysql"
+            },
+            {
+                "id": 5,
+                "name": "Node Js Express"
+            },
+            {
+                "id": 6,
+                "name": "Figma"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "https://i.imgur.com/6Wu5Fj2.png",
+        "name": "FoodMall",
+        "desc": "The FoodMall project involves the Android Frontend Developer & Backend Developer. FoodMall has a mission to make it easier for buyers to choose items with UI that are easy to use and of course simple but modern.",
+        "miniDesc": "Mobile application platform where to shop for food online.",
+        "link": "https://youtu.be/GakkflCSgl8",
+        "date": [
+            {
+                "id": 1,
+                "month": "DECEMBER",
+                "year": 2020
+            }
+        ] ,
+        "tag": [
+            {
+                "id": 1,
+                "name": "React Native"
+            },
+            {
+                "id": 2,
+                "name": "Paypal"
+            },
+            {
+                "id": 3,
+                "name": "Mysql"
+            },
+            {
+                "id": 4,
+                "name": "Node Js Express"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "https://i.imgur.com/6Wu5Fj2.png",
+        "name": "Generasi Cuan",
+        "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-.",
+        "miniDesc": "Web platform where online courses for young people who want to start a business from an early age.",
+        "link": "https://generasi-cuan.now.sh/",
+        "date": [
+            {
+                "id": 1,
+                "month": "JULY",
+                "year": 2020
+            }
+        ] ,
+        "tag": [
+            {
+                "id": 1,
+                "name": "Figma"
+            }
+        ]
+    }
+]

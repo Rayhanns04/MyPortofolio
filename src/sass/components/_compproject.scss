@@ -1,0 +1,114 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+
+.project__ms__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 158px;
+
+  h1 {
+    font-family: map-get($fonts, regular);
+    font-weight: bold;
+    color: $orange;
+    font-size: map-get($fonts-sizes, s-large);
+    align-self: flex-start;
+  }
+}
+
+.project__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1198px;
+  justify-content: space-between;
+}
+
+// Genap
+.project__item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 120px;
+  text-align: right;
+
+  .project__item__right {
+    margin-top: 80px;
+
+    .project__title {
+      font-family: map-get($fonts, regular);
+      font-weight: bold;
+      font-size: map-get($fonts-sizes, s-extra-medium);
+      color: $blue;
+    }
+
+    .project__desc {
+      font-family: map-get($fonts, regular);
+      width: 460px;
+      font-size: map-get($fonts-sizes, s-regular);
+      color: $grey;
+      margin-top: 35px;
+    }
+
+    .project__button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 20px;
+      justify-content: flex-end;
+
+      a {
+        text-decoration: none;
+        font-family: map-get($fonts, medium);
+        font-size: map-get($fonts-sizes, s-extra-small);
+        color: $orange;
+        margin-left: 9px;
+      }
+    }
+  }
+}
+
+// Ganjil
+.project__item__ganjil {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 120px;
+
+  .project__item__right__ganjil {
+    margin-top: 80px;
+
+    .project__title__ganjil {
+      font-family: map-get($fonts, regular);
+      font-weight: bold;
+      font-size: map-get($fonts-sizes, s-extra-medium);
+      color: $blue;
+    }
+
+    .project__desc__ganjil {
+      font-family: map-get($fonts, regular);
+      width: 460px;
+      font-size: map-get($fonts-sizes, s-regular);
+      color: $grey;
+      margin-top: 35px;
+    }
+
+    .project__button__ganjil {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 20px;
+
+      a {
+        text-decoration: none;
+        font-family: map-get($fonts, medium);
+        font-size: map-get($fonts-sizes, s-extra-small);
+        color: $orange;
+        margin-left: 9px;
+      }
+    }
+  }
+}

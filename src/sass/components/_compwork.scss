@@ -1,0 +1,85 @@
+@import '../helpers/mixins';
+@import '../helpers/variables';
+
+.work__ms__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: map-get($fonts, regular);
+    font-weight: bold;
+    color: $orange;
+    font-size: map-get($fonts-sizes, s-large);
+    align-self: flex-start;
+  }
+}
+
+.work__content__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.work__main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1198px;
+  justify-content: space-between;
+  margin-top: 36px;
+
+  .work__detail__left {
+    .work__name {
+      font-family: map-get($fonts, medium);
+      font-size: map-get($fonts-sizes, s-medium);
+      color: $blue;
+    }
+
+    .work__date {
+      font-family: map-get($fonts, medium);
+      font-size: map-get($fonts-sizes, s-regular);
+      color: $grey;
+    }
+  }
+
+  .work__detail__right {
+    .work__minidesc {
+      font-family: map-get($fonts, regular);
+      font-size: map-get($fonts-sizes, s-regular);
+      color: $grey;
+      width: 648px;
+    }
+  }
+
+  .work__tag__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .work__tag {
+    background-color: $orange;
+    padding: 7px 14px;
+    width: fit-content;
+    margin: 0 10px 0 0;
+    border-radius: 16px;
+
+    p {
+      font-family: map-get($fonts, regular);
+      font-size: map-get($fonts-sizes, s-extra-small);
+      color: $white;
+    }
+  }
+}

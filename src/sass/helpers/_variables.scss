@@ -1,0 +1,31 @@
+$orange: #fb3640;
+$blue: #0a2463;
+$grey: #6d6d6d;
+$white: #ffffff;
+
+$fonts: (
+  'light': Poppins Light,
+  'regular': Poppins,
+  'medium': Poppins Medium,
+  'semi-bold': Poppins Bold,
+);
+
+$fonts-weight: (
+  'regular': 400,
+  'medium': 500,
+  'bold': 700,
+  'SuperBold': 900,
+);
+
+$s-icon-size: 28px;
+
+$fonts-sizes: (
+  's-extra-small': 13.17px,
+  's-small': 16px,
+  's-regular': 18px,
+  's-extra-regular': 24px,
+  's-medium': 30px,
+  's-extra-medium': 60px,
+  's-large': 80px,
+  's-extra-large': 100px,
+);
